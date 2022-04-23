@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+.contatos{
+
+    background-color: #731416 ;
+    display: flex;
+}
+
+h1{
+    display: inline;
+}
+
+img{
+
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-bottom: 100px;
+    margin-right: 35px;
+    
+}

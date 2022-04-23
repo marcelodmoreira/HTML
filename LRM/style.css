@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body{
+
+    background-image: linear-gradient(to top, #A68585, #F2E9E9);
+    background-attachment: fixed;
+}
+
+#h1_sobrenos{
+    text-align: center;
+    font-family: MONTSERRAT-BLACK;
+    color: #590B0B;
+    font-size: 60px;
+}
+#p_sobrenos{
+    text-align: justify;
+    color: black;
+    font-family: MONTSERRAT-EXTRALIGHT;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+#div_sobrenos{
+    padding: 15px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    left: 45px;
+    top: 40px;
+}
+
+#div_tecnologia{
+    padding: 18px;
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 145px;
+    top: 480px;
+}
+
+#div_comunicacao{
+    padding: 18px;
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 750px;
+    top: 105px;
+}
+h1{
+
+    text-align: center;
+    color: #590B0B;
+    font-size: 40pt;
+}
+p{
+    text-align: justify;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20pt;
+}
+img{
+    margin: auto;
+    display: block;
+}
+#Composicao1 {
+    position: absolute;
+    left: 850px;
+    top: 550px;
+}
+
+#Composicao2 {
+    position: absolute;
+    left: 20px;
+    top: 575px;
+}

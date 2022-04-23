@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+
+    background-image: linear-gradient(to top, #A68585, #F2E9E9);
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: #590B0B;
+}
+
+#Main_Um{
+
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    position: absolute;
+    left: 20px;
+    top: 500px;
+
+}
+
+#Main_Dois{
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    position: absolute;
+    left: 400px;
+    top: 500px;
+
+}
+
+#Main_Tres{
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    position: absolute;
+    left: 20px;
+    top: 780px;
+
+}
+
+#Main_Quatro{
+
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    position: absolute;
+    left: 400px;
+    top: 780px;
+
+}
+/*main{
+   
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-table;    
+}*/
+p{
+    text-align: justify;
+    font-size: small;
+}
+img{
+    margin: auto;
+    display: block;
+}
+#Composicao1 {
+    position: absolute;
+    left: 850px;
+    top: 550px;
+}

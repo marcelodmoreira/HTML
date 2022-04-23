@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Oleo+Script&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Oleo+Script&family=Shrikhand&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+
+body{
+
+    /*background-color: bisque;*/
+    /*background-image: linear-gradient(#0AADF2,#6B3DFF);*/
+    background-image: radial-gradient(circle, #0A69FC, #6B3DFF 30%, #0AADF2 );
+    color: black
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family:'Oleo Script', cursive;
+    color: #1526E6;
+    font-size: 40px;
+}
+p{
+    font-family:'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}

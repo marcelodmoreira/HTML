@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagem/favicon.ico" type="image/x-icon">
+    <title>Conteúdo HTML</title>
+</head>
+<body>
+    <h1>Página para consulta e evolução do conteúdo HTML com exemplos:</h1>
+    <hr>
+    <h2>Variações nos textos</h2>
+    <p>Aqui iremos trabalhar as variações nos textos utilizando comandos para os seguintes estilos: <strong>NEGRITO</strong>, <em>ITÁLICO</em>, <mark>MARCADOR</mark>, <del>TAXADO</del>, <ins>SUBLINHADO</ins>, LETRA <sup>SUPERIOR</sup>, LETRA <sub>INFERIOR</sub>, <q>TEXTO COM ASPAS</q>, TEXTO COM <abbr title="Exemplo de Textos">PopUP</abbr>, PARÁGRAFO COM CITAÇÃO, ENVELOPAR TEXTO EM <CODE>MONO ESPAÇADA</CODE></p>
+    <!--Manter a formatação do texto como escrito no código utilizamos a tag pre-->
+    <p>Exemplo de citação completa</p>
+    <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=24">
+    Essa é a forma correta
+    </blockquote>
+    <h3>Comando ustilizados para o gerar o parágrafo anterior utilizando listas:</h3>
+    <ul>
+        <li>Comandos para o texto:</li>
+        <ol>
+            <li>Pular linha na frase &rArr; &lt;br&gt;</li>
+            <li>Criar uma linha divisória &rArr; &lt;hr&gt;</li>
+            <li> <strong>Negrito</strong> &rArr; &lt;strong &gt;</li>
+            <li><em>Itálico</em> &rArr; &lt;em &gt;</li>
+            <li><mark>Marca Texto</mark> &rArr; &lt;mark&gt;</li>
+            <li><del>Texto Taxado</del>&rArr; &lt;del&gt;</li>
+            <li><ins>Texto Sublinhado</ins>&rArr; &lt;ins&gt;</li>
+            <li>Utilizando letras <sup>Superiores</sup>&rArr; &lt;sup&gt;</li>
+            <li>Utilizando letras <sub>inferiores</sub> &rArr;&lt;sub&gt;</li>
+            <li>Texto com <q>Aspas</q>&rArr; &lt;q&gt;</li>
+            <li>Quando o texto com Aspas precisa de Citação
+                <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=24">
+                Exemplo de citação para o Curso em Vídeo.     
+                &rArr; &lt;;blockquote&gt;  
+                </blockquote>
+            </li>
+            <li>Texto com <abbr title="Exemplo">PopUp</abbr>&rArr; &lt;abbr&gt;</li>
+            <li> Formatação para <code>códigos <q>mono espaçada</q></code>&rArr; &lt;code&gt; </li>
+            <li> <pre>
+            Se quiser
+                manter o formataçã
+                    do código
+            </pre> &rArr; &lt;pre&gt;
+            </li>
+            
+        </ol>
+    </ul>
+    
+    <h2>Comandos para inserir imagens</h2>
+    <p>Para inserir uma imagem utilizamos a tag &rArr; &lt;img&gt;</p>
+    <img src="Imagem/Casa_montanha_piscina.jpg" alt="Casa">
+    
+    <h2>Inserindo códigos e Emoji</h2>
+    <ul>
+        <li>Inserindo código &rArr; & &#43; Código</li>
+        <li>Inserindo Emoji &rArr; & &#43;  o Código do Emoji <br><em><q>Utilizamos a emojipedia para identificar os códigos.</q></em></li>
+    </ul>
+   
+    <h2>Comandos para utilização das Diversas formas de Listas:</h2>
+    <p>Criando Lista Ordenada &rArr; &lt;ol&gt;<br> Criando item da lista &rArr; &lt;li&gt;</p>
+    <h3>Variações de lista Ordenada:</h3>
+    <ol>
+        <li>Lista numeral:</li>
+            <ol>
+                <li>Comando lista numeral &rArr; &lt;ol&gt;</li>
+                <li type="I">Comando lista numeral Romana &rArr; &lt;ol type = "I"ou"i"&gt </li>
+                <ol start="5">
+                    <li>Comando lista numeral iniciando na numeração determinada &rArr; &lt;ol start="5"&gt;</li>
+                </ol>
+            </ol>
+        <li>Lista com Letras:</li>
+            <ol type="A">
+                <li>Listagem com letras &rArr; &lt;ol type="A"ou"a"&gt;</li>
+            </ol>         
+    </ol>
+   
+    <h3>Variação da lista não Ordenada:</h3>
+    <p>A tag para criar a lista não ordenada é &lt;ul&gt;</p>
+    <ul>
+        <li>Variação comum &rArr; &lt;ul &gt;</li>
+        <ul type = "Disch">
+            <li>Variação com a marcação somente com a borda preta &rArr; &lt;ul type="Disch"&gt;</li>
+        </ul>
+        <ul type="Square">
+            <li>Variação com a marcação em quadrado &rArr; &lt;ul type="Suqare"&gt;</li>
+        </ul>
+    </ul>
+   
+    <h3>Criando lista de Definição</h3>
+   <p>A lista de definição deve ser iniciada com a tag &rArr; &lt;dl&gt;</p>
+   <dl>
+       <dt>Para criarmos o termo a ser definido utilizamos &rArr; &lt;dt&gt;</dt>
+       <dd>Utilizamos para descrever o termo &rArr; &lt;dd&gt;</dd>
+   </dl>
+
+   <h2>Criação de links</h2>
+<p>Para criação de link utilizamos &rArr; &lt;a&gt;<br> <em>Importante a utilização da tag &lt hreflang="linguagem" para informar aos tradutores e navegadores qual a linguagem do site que será aberto.</em></p>
+
+<ol>
+    <li>Links Externos</li>
+    <p><q><em>É sugerido que links externos sejam abertos em abas diferente do seu site</em></q><br> Tag para abrir em aba diferente &rArr; &lt;a target="_blanck" rel="external" </p>
+    <li>Links Internos</li>
+    <p>Quando for navegar em links da própria página utiliamos &rArr; &lt;a target="_self"&gt;</p>
+</ol>
+<h3>Variação das tags &lt;target&gt; e &lt;rel&gt;</h3>
+<ul>
+    <li>&lt;target&gt;</li>
+    <dl>
+        <dt>&lt;taregt = "_blanck"&gt;</dt>
+        <dd>Define uma aba nova para abertura do site.</dd>
+        <dt>&lt;target = "_self"&gt;</dt>
+        <dd>Define a abertura na mesma aba.</dd>
+    </dl>
+    <li>&lt;rel&gt;</li>
+    <dl>
+        <dt>&lt;rel = "external"&gt</dt>
+        <dd>Define que o site é externo a sua página.</dd>
+        <dt>&lt;rel = "prev"&gt;</dt>
+        <dd>Determina para o Google sua página anterior</dd>
+        <dt>&lt;rel = "next"&gt;</dt>
+        <dd>Determina para o Google sua próxima página.</dd>
+    </dl>
+    <p>Iportante ressaltar que visualmente as definições do &lt;rel&gt; não apresentam diferença. Porém para o algorítimo faz sentido.</p>
+</ul>
+<h3>Dowload através de links</h3>
+Para baixar um arquivo ou simplesmente abrí-lo utilizaremos também a trag &lt;a&gt;
+<p>Apontando um download iremos utilizar a estrutura: <a href="pasta/arquivo.formato" download="arquivo.pdf" type="application/pdf"></a></p>
+<p>Types utilizados no dia-a-dia</p>
+<ul>
+    <li>application/zip</li>
+    <li>text/html</li>
+    <li>text/css</li>
+    <li>txt/javascript</li>
+</ul>
+<p>Temos uma listagem completa no site: <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blanck" rel="external">https://www.iana.org/assignments/media-types/media-types.xhtml</a></p>
+
+<h2>Criação de Imagens dinâmicas</h2>
+<p>Importante a criação de imagem dinâmica para que o tamanho da imagem se adapte a resolução da tela do usuário. Isso ajuda na diminuição da negação do seu site e melhora a qualidade do serviço. <br> É importnte ressaltar que existe uma hierarquia a ser seguida. Sempre os menores devem ser antecessor dos maiores. <br> Outro ponto importante é que está sendo usado como padrão os Pixels 1000, 700, 300px. <br>A tag utilizada para essas imagens &rArr; &lt;picture &gt;</p>
+<p>Exemplo:</p>
+<pre>
+    &lt;source media="(max-width: 350)" srcset="pasta/imagem menor.png" type="image/png"&gt;
+    &lt;source media="(max-width: 750)" srcset="pasta/imagem media.png" type="image/png"&gt;
+    img src="pasta/imagem grande" alt="Imagem Dinâmica"
+</pre>
+<h2>Criação de Audios</h2>
+<p> Para criação de Audios iremos utilizar a tag&lt; audio&gt; <br> A estrutura será:</p>
+<pre> 
+    &lt;audio preload="metadata" controls loop&gt;
+    &lt; source src="Local onde o audio está armazenado" type="audio/mpeg"&gt;
+    &lt;/audio&gt;
+</pre>
+<p>Entendendo as tags acima:</p>
+<dl>
+    <dt>preload</dt>
+    <dd>utilizado para definir o carrgemento do audio:</dd>
+    <ul>
+        <li>auto para carregar o audio por completo.
+        <p><em>Atenção que essa funcionalidade pode pesar seu site. Pois o tamanho do áudio vai influenciar.</em></p></li>
+        <li>metadata carrega somente as informações do arquivo</li>
+        <li>none não carrega nenhuma informaçã</li>
+    </ul>
+    <dt>controls</dt>
+    <dd>Vai ativar o controlador para que o usuário possa dar o play ou pause no audio</dd>
+    <dt>Loop</dt>
+    <dd>Para que o audio reiniice após o término.</dd>
+</dl>
+<h2>Criação de Vídeos</h2>
+<p>Importante ressaltar que vídeos hospedados no próprio ambiente do site é honeroso e pesado para carregar.</p>
+<ol>
+    <li> Inserindo Vídeos locais</li>
+    <dl>
+        <dt>Vídeos locais de 1 formato</dt><br>
+        <dd>&lt;video&gt; src="local do vídeo/nome do arquivo.formato" controls>&lt;/video &gt;
+        <p>Se quiser pode utilizar o comando width para determiar a dimensão de ocupação do vídeo na tela.</p></dd>
+        <dt> Vídeos locais em formatos diferentes para atender as diversos navegadores.</dt>
+        <pre>
+                <dd>
+                    &lt;video width="500" poster = "local da imagem/arquivo de imagem" Controls&gt;
+                    &lt;Source&gt;src="local do vídeo/nome do arquivo.mp4" Type="Video/mp4"
+                    &lt;Source&gt;src="local do vídeo/nome do arquivo.mv4" Type="Video/mp4"
+                    &lt;Source&gt;src="local do vídeo/nome do arquivo.webm" Type="Video/we"
+                    &lt;Source&gt;src="local do vídeo/nome do arquivo.ogv" Type="Video/ogg"
+                    <p>Seu navegador não tem compatibilidade com vídeos</p>
+                </dd>
+        </pre>
+    </dl>
+    <li>Vídeos externos anexados ao site</li>
+</ol>
+</body>
+</html>
